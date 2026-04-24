@@ -1,0 +1,23 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: retail_dwh
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ../sql:/docker-entrypoint-initdb.d
+    networks:
+      - cluster_net
+    restart: unless-stopped
+
+networks:
+  cluster_net:
+    driver: bridge
+    name: dwh_dev_net
+
+volumes:
+  mysql_data:

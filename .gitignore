@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Pytest
+.pytest_cache/
+
+# Environnement
+.env
+*.env
+
+# Data raw (fichiers CSV générés)
+data/raw/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

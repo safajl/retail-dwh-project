@@ -1,0 +1,31 @@
+# ============================================================
+# Configuration MySQL Cluster NDB
+# Master FAVD -- Visualisation des Données Massives
+# ============================================================
+# NOTE : Configuration de référence pour l'architecture NDB
+# En environnement DEV, MySQL standard est utilisé via Docker
+# ============================================================
+
+[ndb_mgmd]
+NodeId=1
+hostname=ndb_mgmd
+datadir=/var/lib/mysql
+PortNumber=1186
+
+[ndbd default]
+NoOfReplicas=2
+DataMemory=80M
+IndexMemory=18M
+datadir=/var/lib/mysql
+
+[ndbd]
+NodeId=2
+hostname=ndbd1
+
+[ndbd]
+NodeId=3
+hostname=ndbd2
+
+[mysqld]
+NodeId=4
+hostname=mysqld
