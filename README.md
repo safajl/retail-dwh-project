@@ -85,7 +85,7 @@ cd analysis
 streamlit run app.py
 ```
 
-Le dashboard est accessible sur **http://localhost:8501**
+Le dashboard est accessible sur **http://localhost:8503**
 
 ---
 
