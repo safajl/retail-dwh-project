@@ -119,6 +119,7 @@ Le dashboard est accessible sur **http://localhost:8501**
 
 - Étudiant(e) 1 : **Safa jlassi**
 - Étudiant(e) 2 : **ines boujemaa**
+- Étudiant(e) 3 : **Jihen Zaidi**
 
 ---
 
