@@ -85,7 +85,7 @@ cd analysis
 streamlit run app.py
 ```
 
-Le dashboard est accessible sur **http://localhost:8503**
+Le dashboard est accessible sur **http://localhost:8501**
 
 ---
 
@@ -118,7 +118,7 @@ Le dashboard est accessible sur **http://localhost:8503**
 ## 👥 Équipe
 
 - Étudiant(e) 1 : **Safa jlassi**
-- Étudiant(e) 2 : **ines boujamaa**
+- Étudiant(e) 2 : **ines boujemaa**
 
 ---
 
